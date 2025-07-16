@@ -1,0 +1,19 @@
+# Core ML/DS Libraries
+numpy
+pandas
+scikit-learn
+torch
+torchvision
+torchaudio
+
+# Plotting and Notebooks
+matplotlib
+ipython
+ipykernel
+
+# Utilities
+einops
+torchmetrics
+soundfile
+tqdm
+imageio
