@@ -1,9 +1,5 @@
 # signal-synth-ml: Signal Synthesis with Implicit Neural Representations and Matrix Factorization
 
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
 This repository provides a comprehensive exploration of modern and classical techniques for signal synthesis, reconstruction, and compression. It serves as a practical, hands-on guide to representing complex signals like images and audio not as discrete grids of values, but as continuous functions learned by neural networks and other optimization methods.
 
 The project systematically investigates, benchmarks, and visualizes the performance of several key algorithms, including:
