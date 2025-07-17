@@ -1,5 +1,9 @@
 # signal-synth-ml: Signal Synthesis with Implicit Neural Representations and Matrix Factorization
 
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
 This repository provides a comprehensive exploration of modern and classical techniques for signal synthesis, reconstruction, and compression. It serves as a practical, hands-on guide to representing complex signals like images and audio not as discrete grids of values, but as continuous functions learned by neural networks and other optimization methods.
 
 The project systematically investigates, benchmarks, and visualizes the performance of several key algorithms, including:
@@ -27,15 +31,16 @@ Visual comparison of different gradient descent optimizers navigating a loss lan
 
 Using a coordinate-based `SignalMLP` with multi-scale Random Fourier Features to reconstruct an image and an audio clip from their coordinates.
 
-#### Image Reconstruction (PSNR: >47 dB)
+#### Image Reconstruction (PSNR: >28 dB)
 ![Image Reconstruction](./results/plots/task2/rff_mlp_image_recon.png)
 
-#### Audio Reconstruction (SNR: >10 dB)
+#### Audio Reconstruction (SNR: >18 dB)
 **Original Audio:**
-<audio controls src="./data/audio/borgir.wav"></audio>
+<audio controls src="https://raw.githubusercontent.com/devansh-lodha/signal-synth-ml/main/data/audio/borgir.wav"></audio>
 
 **Reconstructed Audio:**
-<audio controls src="./results/plots/task2/rff_mlp_audio_recon.wav"></audio>
+<audio controls src="https://raw.githubusercontent.com/devansh-lodha/signal-synth-ml/main/results/audio/rff_mlp_audio_recon.wav"></audio>
+*(Note: You may need to generate this file by running Notebook 2 and placing it in a `results/audio/` directory for the player above to work.)*
 
 ---
 
@@ -71,7 +76,7 @@ The project is organized into a clean, modular structure for easy navigation and
 signal-synth-ml/
 ├── data/                 # Input images and audio files
 ├── notebooks/            # Jupyter notebooks for each task, serving as the main reports
-├── results/              # Output directory for generated plots and GIFs
+├── results/              # Output directory for generated plots, GIFs, and audio
 ├── src/                  # Core Python modules with reusable code
 │   ├── data_loader.py    # Functions for loading and preprocessing data
 │   ├── models.py         # Definitions for SIREN, MLP, etc.
@@ -128,4 +133,4 @@ This project served as a deep dive into the practical challenges and solutions i
 ---
 
 ### Acknowledgements
-This project was developed as part of coursework for an advanced machine learning course, guided by Prof. Nipun Batra.
+This project was developed as part of coursework for an advanced machine learning course, guided by Prof. Nipun Batra. The explorations were inspired by foundational papers in the field of implicit neural representations and matrix completion.
