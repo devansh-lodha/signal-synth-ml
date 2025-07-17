@@ -35,8 +35,7 @@ Using a coordinate-based `SignalMLP` with multi-scale Random Fourier Features to
 <audio controls src="https://raw.githubusercontent.com/devansh-lodha/signal-synth-ml/main/data/audio/borgir.wav"></audio>
 
 **Reconstructed Audio:**
-<audio controls src="https://raw.githubusercontent.com/devansh-lodha/signal-synth-ml/main/results/audio/rff_mlp_audio_recon.wav"></audio>
-*(Note: You may need to generate this file by running Notebook 2 and placing it in a `results/audio/` directory for the player above to work.)*
+<audio controls src="https://raw.githubusercontent.com/devansh-lodha/signal-synth-ml/main/results/task2/rff_mlp_audio_recon.wav"></audio>
 
 ---
 
